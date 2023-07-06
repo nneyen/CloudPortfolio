@@ -19,11 +19,12 @@ The next time I attempt this, I will try to use terraform modules
 
 ## Architecture
 Here's a rough sketch of the Architecture
+
 ![2-Tier Architecture](media/architecture.jpg)
 
 ## Code Snippets
 
-**Install Apache Scrip**
+**Install Apache Script**
 This is the user data script that is installed on the EC2 instance at launch
 ```
     #! /bin/bash
